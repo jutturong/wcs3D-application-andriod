@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroller"
+    android:layout_width="fill_parent"
+    android:layout_height="1000dp"
+    android:fillViewport="true" >
+
+
+
+<AbsoluteLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+
+
+<!--
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:src="@drawable/background2"
+        />
+ -->
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_x="0dp"
+        android:layout_y="-330dp"
+        android:src="@drawable/background4"
+        />
+
+
+
+
+<!-- button2 ปุ่มเท่าขนาด -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/button2"
+        android:layout_x="0dp"
+        android:layout_y="15dp"
+        />
+
+
+
+    <!--
+    <ImageView
+        android:layout_width="2400dp"
+        android:layout_height="60dp"
+        android:src="@drawable/button1"
+        android:layout_x="-1000dp"
+        android:layout_y="40dp"
+        />
+        -->
+
+    <!-- หัวข้อใหญ่ -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="เมื่อวันผ่าตัดมาถึง"
+        android:textSize="45dp"
+        android:layout_x="45dp"
+        android:layout_y="40dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+
+    <!-- เนื้อหา -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ก่อนถึงวันผ่าตัดคุณแม่จะได้คุยและ"
+        android:textSize="25dp"
+        android:layout_x="35dp"
+        android:layout_y="120dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="รับรู้ข้อมูลจากศัลยแพทย์และจาก"
+        android:textSize="25dp"
+        android:layout_x="15dp"
+        android:layout_y="150dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="พยาบาลประสานงานว่าจะต้องเตรียม"
+        android:textSize="25dp"
+        android:layout_x="15dp"
+        android:layout_y="180dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ตัวทารกอย่างไรโดยเฉพาะการ"
+        android:textSize="25dp"
+        android:layout_x="15dp"
+        android:layout_y="210dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="เตรียมให้ทารกคุ้นเคยการกลืนน้ำนม"
+        android:textSize="25dp"
+        android:layout_x="15dp"
+        android:layout_y="240dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="โดยใช้หลอดหยดซึ่งคุณแม่ควรจะใช้"
+        android:textSize="25dp"
+        android:layout_x="15dp"
+        android:layout_y="270dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="เวลาฝึกประมาณ 1 สัปดาห์ก่อนมา"
+        android:textSize="25dp"
+        android:layout_x="15dp"
+        android:layout_y="300dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ผ่าตัดจะทำให้ทารกคุ้นเคยกับวิธีกลืน"
+        android:textSize="25dp"
+        android:layout_x="15dp"
+        android:layout_y="330dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="น้ำนมโดยไม่ต้องดูด ควรบีบน้ำนมแม่"
+        android:textSize="25dp"
+        android:layout_x="15dp"
+        android:layout_y="360dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="่หรือปั๊มใส่ช่องน้ำแข็งไว้ให้มากเพราะ"
+        android:textSize="25dp"
+        android:layout_x="15dp"
+        android:layout_y="390dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ขณะคุณแม่มารอลูกผ่าตัดความเครียด"
+        android:textSize="25dp"
+        android:layout_x="15dp"
+        android:layout_y="420dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="อาจทำให้น้ำนมลดปริมาณลงชั่วคราว"
+        android:textSize="25dp"
+        android:layout_x="15dp"
+        android:layout_y="450dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="อย่างไรก็ตามขณะผ่าตัดงดให้นม คุณ"
+        android:textSize="25dp"
+        android:layout_x="15dp"
+        android:layout_y="480dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="แม่ต้องบีบน้ำนมกระตุ้นให้สม่ำเสมอ"
+        android:textSize="25dp"
+        android:layout_x="15dp"
+        android:layout_y="510dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="เพราะหลังผ่าตัดเมื่อทารกรู้สึกตัวดี"
+        android:textSize="25dp"
+        android:layout_x="15dp"
+        android:layout_y="540dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="แพทย์จะขออนุญาตให้ลูกกินนมได้โดย"
+        android:textSize="25dp"
+        android:layout_x="15dp"
+        android:layout_y="570dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="วิธีบีบใส่ปาก"
+        android:textSize="25dp"
+        android:layout_x="15dp"
+        android:layout_y="600dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <!-- เนื้อหา ตอนที่2-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="หัวนมแม่นิ่มและน้ำนมแม่มีสารทำลาย"
+        android:textSize="25dp"
+        android:layout_x="33dp"
+        android:layout_y="630dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="เชื้อซึ่งจะช่วยป้องกันแผลผ่าตัดติดเชื้อ"
+        android:textSize="25dp"
+        android:layout_x="15dp"
+        android:layout_y="660dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="และคราบน้ำนมแม่ในปากและติดบน"
+        android:textSize="25dp"
+        android:layout_x="15dp"
+        android:layout_y="690dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="แผลผ่าตัดไม่จำเป็นต้องเช็ดออก"
+        android:textSize="25dp"
+        android:layout_x="15dp"
+        android:layout_y="720dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="นอกจากจะมีคราบเลือดปนแต่อย่างไร"
+        android:textSize="25dp"
+        android:layout_x="15dp"
+        android:layout_y="750dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ก็ตามควรทำตามคำแนะนำของศัลย์-"
+        android:textSize="25dp"
+        android:layout_x="14dp"
+        android:layout_y="780dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="แพทยและพยาบาลแผนกศัลยกรรมโดย"
+        android:textSize="25dp"
+        android:layout_x="15dp"
+        android:layout_y="810dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="เคร่งครัด"
+        android:textSize="25dp"
+        android:layout_x="15dp"
+        android:layout_y="840dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+
+    <!-- back -->
+
+    <ImageView
+        android:id="@+id/imgback"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="10dp"
+        android:layout_y="900dp"
+        android:src="@drawable/b"
+        />
+
+
+    <!-- forword -->
+    <ImageView
+        android:id="@+id/imgforword"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="300dp"
+        android:layout_y="900dp"
+        android:src="@drawable/f"
+        />
+
+
+</AbsoluteLayout>
+
+</ScrollView>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroller"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight = "1"
+    android:orientation="vertical"
+    android:fillViewport="true" >
+
+
+
+
+<AbsoluteLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+   <!-- เข้าสู่ระบบ -->
+    <ImageView
+        android:id="@+id/imgLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="-25dp"
+        android:src="@drawable/guestmainsystem_01"
+        />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="50dp"
+        android:src="@drawable/guestmainsystem_02"
+        />
+
+<!-- สมัครสมาชิก -->
+    <ImageView
+        android:id="@+id/imaSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="70dp"
+        android:src="@drawable/guestmainsystem_03"
+        />
+
+<!-- พัฒนาการช่วงวัย  -->
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="206dp"
+        android:layout_height="match_parent"
+        android:layout_x="0dp"
+        android:layout_y="-122dp"
+        android:src="@drawable/guestmainsystem_04"
+        />
+
+
+    <!-- ติดตามการรักษา  -->
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="206dp"
+        android:layout_height="match_parent"
+        android:layout_x="206dp"
+        android:layout_y="-122dp"
+        android:src="@drawable/guestmainsystem_05"
+        />
+
+
+    <!-- การให้นมทารก  -->
+    <ImageView
+        android:id="@+id/imageFeeding"
+        android:layout_width="206dp"
+        android:layout_height="match_parent"
+        android:layout_x="0dp"
+        android:layout_y="20dp"
+        android:src="@drawable/guestmainsystem_06"
+        />
+
+    <!-- ข้อมูลสุขภาพ -->
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="206dp"
+        android:layout_height="match_parent"
+        android:layout_x="206dp"
+        android:layout_y="20dp"
+        android:src="@drawable/guestmainsystem_07"
+        />
+
+    <!-- คลังความรู้  -->
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="206dp"
+        android:layout_height="match_parent"
+        android:layout_x="0dp"
+        android:layout_y="145dp"
+        android:src="@drawable/guestmainsystem_08"
+        />
+    <!-- ปรึกษาตะวันฉาย  -->
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="206dp"
+        android:layout_height="match_parent"
+        android:layout_x="206dp"
+        android:layout_y="145dp"
+        android:src="@drawable/guestmainsystem_09"
+        />
+
+    <!-- ติดตามข่าวสาร  -->
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="206dp"
+        android:layout_height="match_parent"
+        android:layout_x="0dp"
+        android:layout_y="275dp"
+        android:src="@drawable/guestmainsystem_10"
+        />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="206dp"
+        android:layout_height="match_parent"
+        android:layout_x="206dp"
+        android:layout_y="275dp"
+        android:src="@drawable/guestmainsystem_11"
+        />
+
+
+
+
+
+
+</AbsoluteLayout>
+
+
+
+
+
+</ScrollView>
+

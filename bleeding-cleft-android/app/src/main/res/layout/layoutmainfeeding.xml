@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!-- หัว -->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="-60dp"
+        android:src="@drawable/mainfeeding_01"
+        />
+
+
+
+
+<!-- ประโยชน์ของน้ำนมมารดา -->
+    <ImageView
+        android:id="@+id/imgbenifitfeeding"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="97dp"
+        android:src="@drawable/mainfeeding_02"
+        />
+
+<!-- บีบและเก็บรักษาน้ำนม  -->
+    <ImageView
+        android:id="@+id/imagekeepmilk"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_x="206dp"
+        android:layout_y="97dp"
+        android:src="@drawable/mainfeeding_03"
+        />
+
+
+
+
+    <!-- เริ่มต้นดูดนมแม่ -->
+    <ImageView
+        android:id="@+id/imgbeginfeeding"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="149dp"
+        android:src="@drawable/mainfeeding_04"
+        />
+
+    <!-- ปัญหาที่พบบ่อย -->
+    <ImageView
+        android:id="@+id/imgissue"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_x="206dp"
+        android:layout_y="149dp"
+        android:src="@drawable/mainfeeding_05"
+        />
+
+
+
+<!-- ระยะห่างในการให้นม -->
+    <ImageView
+        android:id="@+id/imgfrequency"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="194dp"
+        android:src="@drawable/mainfeeding_06"
+        />
+
+
+    <!-- เมื่อวินาทีผ่าตัดมาถึง -->
+    <ImageView
+        android:id="@+id/imgdaysurgery"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_x="206dp"
+        android:layout_y="194dp"
+        android:src="@drawable/mainfeeding_07"
+        />
+
+
+
+
+
+    <!-- เคล็ดลับเพิ่มน้ำหนักทารก -->
+    <ImageView
+        android:id="@+id/imgtrickweight"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="239dp"
+        android:src="@drawable/mainfeeding_08"
+        />
+
+    <!-- รับชมวีดีโอ -->
+    <ImageView
+        android:id="@+id/imgvdo"
+        android:layout_width="206dp"
+
+        android:layout_height="wrap_content"
+        android:layout_x="206dp"
+        android:layout_y="239dp"
+        android:src="@drawable/mainfeeding_09"
+        />
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="210dp"
+        android:src="@drawable/mainfeeding_10"
+        />
+
+
+
+<!-- กลับเมนูหลัก -->
+    <ImageView
+        android:id="@+id/imageBack"
+        android:layout_width="210dp"
+        android:layout_height="match_parent"
+        android:layout_x="0dp"
+        android:layout_y="300dp"
+        android:src="@drawable/mainfeeding_11"
+        />
+    <!-- กลับเมนูหลัก -->
+
+
+    <ImageView
+
+        android:layout_width="210dp"
+        android:layout_height="match_parent"
+        android:layout_x="205dp"
+        android:layout_y="300dp"
+        android:src="@drawable/mainfeeding_12"
+        />
+
+
+
+</AbsoluteLayout>

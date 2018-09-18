@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="0dp"
+            android:src="@drawable/background2"
+            />
+
+
+    <!-- icon หลัก -->
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_x="0dp"
+        android:layout_y="70dp"
+        android:src="@drawable/face2"
+        />
+
+
+    <!-- button -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/button2"
+        android:layout_x="0dp"
+        android:layout_y="-290dp"
+        />
+
+    <!--  android:textColor="#4d4d00" -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ช่วยพัฒนารูปหน้า"
+        android:textSize="40dp"
+        android:layout_x="80dp"
+        android:layout_y="25dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+
+    <!-- เนื้อหา -->
+    <!--  android:textColor="#4d4d00" -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="การดูดนมแม่ต้องใช้กล้ามเนื้อ"
+        android:textSize="25dp"
+        android:layout_x="65dp"
+        android:layout_y="100dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="กระพุ้งแก้ม การเคลื่อนไหวของกราม"
+        android:textSize="25dp"
+        android:layout_x="16dp"
+        android:layout_y="130dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="การขยับของปาก และลิ้นควบคู่กันทำ"
+        android:textSize="25dp"
+        android:layout_x="20dp"
+        android:layout_y="160dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ให้ใบหน้า และริมฝีปากเจริญเติบโต"
+        android:textSize="25dp"
+        android:layout_x="20dp"
+        android:layout_y="190dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ได้สัดส่วนกัน ซึ่งสิ่งเหล่านี้จะมีผลทำ"
+        android:textSize="25dp"
+        android:layout_x="20dp"
+        android:layout_y="220dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ให้การทำศัลยกรรมตกแต่งรูปหน้าและ"
+        android:textSize="25dp"
+        android:layout_x="20dp"
+        android:layout_y="250dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ริมฝีปากได้สวย"
+        android:textSize="25dp"
+        android:layout_x="20dp"
+        android:layout_y="280dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=""
+        android:textSize="25dp"
+        android:layout_x="20dp"
+        android:layout_y="310dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+
+
+
+
+    <!-- กลับเมนูหลัก  back -->
+    <ImageView
+        android:id="@+id/imgback"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="10dp"
+        android:layout_y="580dp"
+        android:src="@drawable/b"
+        />
+
+
+    <ImageView
+        android:id="@+id/imgprev"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="300dp"
+        android:layout_y="580dp"
+        android:src="@drawable/f"
+        />
+
+
+</AbsoluteLayout>

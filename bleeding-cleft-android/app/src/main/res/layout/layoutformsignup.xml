@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<!-- หัว -->
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="-80dp"
+        android:src="@drawable/formsignup5_01"
+        />
+
+
+    <!-- อัพโหลด-->
+    <ImageView
+        android:id="@+id/imageUpload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="95dp"
+        android:src="@drawable/formsignup5_02"
+        />
+
+    <!-- ฟอร์ม-->
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="20dp"
+        android:src="@drawable/formsignup5_03"
+        />
+
+
+
+
+    <!-- ฟอร์ม -->
+
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="555dp"
+        android:src="@drawable/formsignup5_04"
+        />
+
+
+
+    <!-- สมััคร -->
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="590dp"
+        android:src="@drawable/formsignup5_05"
+        />
+
+
+
+
+    <!-- เข้าสู่ระบบ -->
+    <ImageView
+        android:id="@+id/imageLogin"
+        android:layout_width="210dp"
+        android:layout_height="match_parent"
+        android:layout_x="0dp"
+        android:layout_y="322dp"
+        android:src="@drawable/formsignup5_06"
+        />
+
+
+    <!-- เข้าเยี่ยมชม -->
+    <ImageView
+     android:id="@+id/imageGuest"
+        android:layout_width="210dp"
+        android:layout_height="match_parent"
+        android:layout_x="210dp"
+        android:layout_y="323dp"
+        android:src="@drawable/formsignup5_07"
+        />
+
+
+
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_x="40dp"
+        android:layout_y="189dp"
+      >
+
+
+        <GridLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:useDefaultMargins="true"
+            android:alignmentMode="alignBounds"
+            android:columnOrderPreserved="false"
+
+            android:columnCount="4"
+
+            >
+
+            <TextView
+
+                android:layout_columnSpan="1"
+                android:text="ชื่อผู้ใช้งาน :"
+                android:textColor="@color/primary_material_dark"
+                android:layout_gravity="right"
+
+
+                />
+
+
+
+            <EditText
+                android:id="@+id/edituser"
+                android:ems="8"
+                android:layout_columnSpan="2"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:inputType="text"
+
+
+                />
+
+            <TextView
+                android:layout_columnSpan="1"
+                android:text="รหัสผ่าน :"
+                android:textColor="@color/primary_material_dark"
+                android:layout_column="0"
+                android:layout_gravity="right"
+
+                />
+
+
+
+            <EditText
+                android:id="@+id/editpassword"
+                android:ems="8"
+                android:inputType="textPassword"
+                android:layout_columnSpan="1"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                />
+
+
+            <TextView
+                android:text="ชื่อผู้ป่วย :"
+                android:textColor="@color/primary_material_dark"
+                android:layout_column="0"
+                android:layout_gravity="right"
+
+                />
+
+
+
+            <EditText
+
+                android:ems="8"
+                android:inputType="text"
+                android:layout_columnSpan="1"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                />
+
+
+            <TextView
+                android:text="นามสกุลผู้ป่วย :"
+                android:textColor="@color/primary_material_dark"
+                android:layout_column="0"
+                android:layout_gravity="right"
+
+                />
+
+
+
+            <EditText
+
+                android:ems="8"
+                android:inputType="text"
+                android:layout_columnSpan="1"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                />
+
+            <TextView
+                android:text="เลขบัตรประชาชน  : "
+                android:textColor="@color/primary_material_dark"
+                android:layout_column="0"
+                android:layout_gravity="right"
+
+                />
+
+
+
+            <EditText
+
+                android:ems="8"
+                android:inputType="number"
+                android:layout_columnSpan="1"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                />
+
+            <TextView
+                android:text="เบอร์โทรศํพท์  : "
+                android:textColor="@color/primary_material_dark"
+                android:layout_column="0"
+                android:layout_gravity="right"
+
+                />
+
+
+
+            <EditText
+
+                android:ems="8"
+                android:inputType="phone"
+                android:layout_columnSpan="1"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                />
+
+            <TextView
+
+                android:text="อีเมล์  : "
+                android:textColor="@color/primary_material_dark"
+                android:layout_column="0"
+                android:layout_gravity="right"
+
+                />
+
+
+
+            <EditText
+
+                android:ems="8"
+                android:inputType="textEmailAddress"
+                android:layout_columnSpan="1"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                />
+
+
+
+
+
+            <TextView
+                android:text=" "
+
+                android:layout_column="0"
+                android:layout_gravity="right"
+
+                />
+
+
+            <CheckBox
+                android:id="@+id/checkBox1"
+android:textColor="@color/primary_material_dark"
+android:layout_marginLeft="0dp"
+                android:layout_columnSpan="0"
+                android:text="ฉั้นยอมรับเงื่อนไข" />
+
+
+        </GridLayout>
+
+
+
+    </FrameLayout>
+
+
+
+</AbsoluteLayout>

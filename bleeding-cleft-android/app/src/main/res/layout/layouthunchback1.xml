@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!-- background -->
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:src="@drawable/background2"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/button1"
+        android:layout_x="0dp"
+        android:layout_y="-270dp"
+        />
+
+    <!-- หัวข้อใหญ่ -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ท่านั่งค่อม"
+        android:textSize="45dp"
+        android:layout_x="120dp"
+        android:layout_y="40dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+
+    <!-- icon ภาพ -->
+    <!--
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_x="50dp"
+        android:layout_y="150dp"
+        android:src="@drawable/hunchback1" />
+    -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:src="@drawable/hunchback1" />
+
+
+    <!-- back -->
+    <ImageView
+        android:id="@+id/imgback"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="5dp"
+        android:layout_y="570dp"
+        android:src="@drawable/b"
+        />
+
+    <!-- เนื้อหา -->
+    <!--
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="วิธีอุ้มท่านี้จะใช้มือตรงข้ามเต้านม"
+        android:textSize="25dp"
+        android:layout_x="35dp"
+        android:layout_y="150dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+        -->
+
+    <!-- forword -->
+    <ImageView
+        android:id="@+id/imgforword"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="310dp"
+        android:layout_y="570dp"
+        android:src="@drawable/f"
+        />
+
+
+
+</AbsoluteLayout>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:src="@drawable/background2"
+        />
+      
+
+    <!-- icon หลัก -->
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:src="@drawable/speeking"
+        />
+
+
+    <!-- button -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/button2"
+        android:layout_x="0dp"
+        android:layout_y="-290dp"
+        />
+
+    <!--  android:textColor="#4d4d00" -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ช่วยพัฒนาระบบการพูด"
+        android:textSize="40dp"
+        android:layout_x="30dp"
+        android:layout_y="25dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+<!-- เนื้อหา -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="การขยับริมฝีปากและลิ้น ขณะดูด"
+        android:textSize="25dp"
+        android:layout_x="65dp"
+        android:layout_y="100dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="นมแม่เป็นพื้นฐานในการพูด ทำให้พูด"
+        android:textSize="25dp"
+        android:layout_x="20dp"
+        android:layout_y="130dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ได้ดี และชัดขึ้น ซึ่งการพูดเป็นปัญหา"
+        android:textSize="25dp"
+        android:layout_x="20dp"
+        android:layout_y="160dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ของเด็กที่มีภาวะปากแหว่งเพดานโหว่"
+        android:textSize="25dp"
+        android:layout_x="16dp"
+        android:layout_y="190dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ที่ต้องทำการรักษา ทำให้การรักษานั้น"
+        android:textSize="25dp"
+        android:layout_x="17dp"
+        android:layout_y="220dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ง่ายขึ้น"
+        android:textSize="25dp"
+        android:layout_x="20dp"
+        android:layout_y="250dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+
+
+
+
+
+
+    <!-- กลับเมนูหลัก  back -->
+    <ImageView
+        android:id="@+id/imgback"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="10dp"
+        android:layout_y="580dp"
+        android:src="@drawable/b"
+        />
+
+
+    <ImageView
+        android:id="@+id/imgprev"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="300dp"
+        android:layout_y="580dp"
+        android:src="@drawable/f"
+        />
+
+
+</AbsoluteLayout>

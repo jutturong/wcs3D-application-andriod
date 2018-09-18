@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <!-- เนื้อหา -->
+
+    <!--
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:src="@drawable/trickweight_01"
+        android:visibility="visible" />
+-->
+
+
+<!--
+    <ImageView
+
+        android:layout_width="440dp"
+        android:layout_height="600dp"
+        android:layout_x="-14dp"
+        android:layout_y="-10dp"
+        android:src="@drawable/trickweight_01"
+        />
+        -->
+
+
+
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:src="@drawable/background2"
+        />
+
+
+    <!-- button -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/button2"
+        android:layout_x="0dp"
+        android:layout_y="-290dp"
+        />
+
+    <!-- หัวข้อใหญ่ -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="เคล็ดลับเพิ่มน้ำหนักทารก"
+        android:textSize="40dp"
+        android:layout_x="50dp"
+        android:layout_y="30dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/fc_lamoon_bold"
+
+        />
+
+
+
+    <!-- เนื้อหา -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ให้นมทารกหมดทีละเต้า น้ำนมแม่"
+        android:textSize="33dp"
+        android:layout_x="30dp"
+        android:layout_y="100dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/fc_lamoon_bold"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ช่วงต้นๆ จะมีน้ำตาลแลคโตสและ"
+        android:textSize="33dp"
+        android:layout_x="30dp"
+        android:layout_y="130dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/fc_lamoon_bold"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="โปรตีนสูง น้ำนมแม่ช่วงท้ายๆ จะมี"
+        android:textSize="33dp"
+        android:layout_x="30dp"
+        android:layout_y="160dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/fc_lamoon_bold"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ไขมันมาก ทำให้ทารกน้ำหนักดีขึ้น"
+        android:textSize="33dp"
+        android:layout_x="30dp"
+        android:layout_y="190dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/fc_lamoon_bold"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ชั่งน้ำหนักทุกๆ 1-2 สัปดาห์ ทารก"
+        android:textSize="33dp"
+        android:layout_x="30dp"
+        android:layout_y="250dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/fc_lamoon_bold"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ควรมีน้ำหนัก เพิ่มสัปดาห์ละ"
+        android:textSize="33dp"
+        android:layout_x="30dp"
+        android:layout_y="280dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/fc_lamoon_bold"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="200 กรัม ถ้าน้อยกว่านี้ควรให้นม"
+        android:textSize="33dp"
+        android:layout_x="30dp"
+        android:layout_y="310dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/fc_lamoon_bold"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ส่วนท้ายเพิ่ม"
+        android:textSize="33dp"
+        android:layout_x="30dp"
+        android:layout_y="340dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/fc_lamoon_bold"
+
+        />
+
+
+
+    <!-- back -->
+    <!--
+    <ImageView
+        android:id="@+id/imageBack"
+        android:layout_width="194dp"
+        android:layout_height="match_parent"
+        android:layout_x="14dp"
+        android:layout_y="290dp"
+        android:src="@drawable/trickweight_02"
+        />
+    -->
+
+
+
+
+    <ImageView
+
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_x="50dp"
+        android:layout_y="350dp"
+        android:src="@drawable/fat"
+        />
+
+
+
+
+    <ImageView
+        android:id="@+id/imageBack"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_x="20dp"
+        android:layout_y="600dp"
+        android:src="@drawable/back3"
+        />
+
+     <!-- forword -->
+    <!--
+    <ImageView
+        android:id="@+id/imgforword"
+        android:layout_width="194dp"
+        android:layout_height="match_parent"
+        android:layout_x="205dp"
+        android:layout_y="290dp"
+        android:src="@drawable/trickweight_03"
+        />
+     -->
+
+    <ImageView
+        android:id="@+id/imgforword"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_x="320dp"
+        android:layout_y="600dp"
+        android:src="@drawable/menu"
+        />
+
+
+
+
+</AbsoluteLayout>

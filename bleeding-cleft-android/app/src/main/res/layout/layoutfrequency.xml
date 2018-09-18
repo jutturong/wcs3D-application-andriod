@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:src="@drawable/background2"
+        />
+
+    <!-- button -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/button2"
+        android:layout_x="0dp"
+        android:layout_y="-290dp"
+        />
+
+    <!-- หัวข้อใหญ่ -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ความถึ่ และระยะห่างในการให้น้ำนม"
+        android:textSize="25dp"
+        android:layout_x="10dp"
+        android:layout_y="20dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="แต่ละมื้อ"
+        android:textSize="25dp"
+        android:layout_x="160dp"
+        android:layout_y="50dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+
+    <!-- เนื้อหา -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ทารกควรได้ดูดนมอย่างมีประสิทธิภาพ"
+        android:textSize="24dp"
+        android:layout_x="25dp"
+        android:layout_y="100dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ในแต่ละมื้อนานอย่างน้อย 30-45นาที"
+        android:textSize="25dp"
+        android:layout_x="15dp"
+        android:layout_y="130dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="และไม่ควรเกิน 60 นาทีวันละ 8-12"
+        android:textSize="25dp"
+        android:layout_x="15dp"
+        android:layout_y="160dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ครั้ง ถ้าหากแต่ละมื้อนานเกิน 60นาที"
+        android:textSize="25dp"
+        android:layout_x="15dp"
+        android:layout_y="190dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="คุณแม่จะต้องบีบน้ำนมช่วยเพิ่มขึ้นและ"
+        android:textSize="25dp"
+        android:layout_x="15dp"
+        android:layout_y="220dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="พยายามให้ทารกดูดน้ำนมหมดทีละเต้า"
+        android:textSize="25dp"
+        android:layout_x="15dp"
+        android:layout_y="250dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="เพื่อให้ได้รับน้ำนมแม่ส่วนท้ายที่มไขมัน"
+        android:textSize="25dp"
+        android:layout_x="15dp"
+        android:layout_y="280dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="สูง"
+        android:textSize="25dp"
+        android:layout_x="15dp"
+        android:layout_y="310dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+
+    <!-- เนื้อหา -->
+
+
+
+
+
+    <!-- icon แม่ให้นมลูก-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/frequency2"
+        android:layout_x="0dp"
+        android:layout_y="190dp"
+        />
+
+
+<!-- icon นาฬิกา -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/clock_2"
+        android:layout_x="230dp"
+        android:layout_y="350dp"
+        />
+
+
+
+
+    <!-- icon ย่อย -->
+    <ImageView
+        android:id="@+id/imgmenu"
+        android:layout_width="110dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/feedingicon6"
+        android:layout_x="270dp"
+        android:layout_y="260dp"
+        />
+
+    <!-- text การให้นมทารก -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="การให้นมทารก"
+        android:textSize="22dp"
+        android:layout_x="260dp"
+        android:layout_y="630dp"
+        android:textColor="#000000"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <!--   android:textColor="#4d4d00" -->
+
+
+    <!-- กลับเมนูหลัก -->
+    <ImageView
+        android:id="@+id/imgback"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="10dp"
+        android:layout_y="580dp"
+        android:src="@drawable/b"
+        />
+
+
+</AbsoluteLayout>

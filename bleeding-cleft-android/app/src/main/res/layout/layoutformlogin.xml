@@ -1,0 +1,198 @@
+<AbsoluteLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="-119dp"
+        android:src="@drawable/formlogin4_01"
+        />
+
+    <!-- เข้าสู่ระบบ -->
+    <ImageView
+        android:id="@+id/imageLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="324dp"
+        android:src="@drawable/formlogin4_02"
+        />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="359dp"
+        android:src="@drawable/formlogin4_03"
+        />
+
+
+    <!-- ลืมรหัสผ่าน -->
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="400dp"
+        android:src="@drawable/formlogin4_04"
+        />
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="420dp"
+        android:src="@drawable/formlogin4_05"
+        />
+
+      <!-- facebook -->
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="420dp"
+        android:src="@drawable/formlogin4_06"
+        />
+
+
+
+
+   <ImageView
+       android:id="@+id/imageView7"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_x="0dp"
+       android:layout_y="468dp"
+       android:src="@drawable/formlogin4_07"
+
+       />
+
+
+   <!-- สมัครสมาชิก -->
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_x="-13dp"
+        android:layout_y="610dp"
+        android:src="@drawable/formlogin4_08"
+
+        />
+
+    <!-- เข้าเยี่ยมชม -->
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_x="123dp"
+        android:layout_y="610dp"
+        android:src="@drawable/formlogin4_09"
+
+        />
+
+
+
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_x="80dp"
+        android:layout_y="198dp"
+
+        >
+
+
+
+
+        <GridLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:useDefaultMargins="true"
+            android:alignmentMode="alignBounds"
+            android:columnOrderPreserved="false"
+
+            android:columnCount="4"
+
+            >
+
+
+
+<!-- ชื่อผู้ใช้ -->
+            <TextView
+
+
+                android:text="         "
+
+                android:layout_gravity="left"
+
+
+                />
+
+
+              <!-- edit username -->
+            <EditText
+                android:id="@+id/edituser"
+                android:ems="8"
+                android:layout_columnSpan="1"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                 android:inputType="text"
+
+
+                />
+
+
+<!-- รหัสผ่าน -->
+            <TextView
+                android:text="         "
+
+                android:layout_column="0"
+                android:layout_gravity="left"
+
+                />
+
+
+            <!-- edit password -->
+            <EditText
+                android:id="@+id/editpassword"
+                android:ems="8"
+                 android:inputType="textPassword"
+                android:layout_columnSpan="1"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                />
+
+
+
+
+
+
+
+
+        </GridLayout>
+
+
+
+
+
+
+    </FrameLayout>
+
+
+
+
+</AbsoluteLayout>

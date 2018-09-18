@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:src="@drawable/background2"
+        />
+
+    <!-- button -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/button2"
+        android:layout_x="0dp"
+        android:layout_y="-290dp"
+        />
+
+    <!-- หัวข้อใหญ่ -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ปัญหาจากการให้นมแม่"
+        android:textSize="43dp"
+        android:layout_x="10dp"
+        android:layout_y="20dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <!-- เนื้อหา -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ถ้าเกิดแผลบริเวณหัวนมหรือลานนม"
+
+        android:textSize="25dp"
+        android:layout_x="40dp"
+        android:layout_y="100dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ให้คุณแม่ทาหัวนมด้วยน้ำนมแม่และเปิด"
+
+        android:textSize="25dp"
+        android:layout_x="15dp"
+        android:layout_y="130dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="แผลให้โดนลมจะทำให้แผลหายเร็ว"
+
+        android:textSize="25dp"
+        android:layout_x="15dp"
+        android:layout_y="160dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="และพยายามเปลี่ยนมุมการดูดอย่าให้"
+
+        android:textSize="25dp"
+        android:layout_x="15dp"
+        android:layout_y="190dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ทารกกัดบริเวณเดิม"
+
+        android:textSize="25dp"
+        android:layout_x="15dp"
+        android:layout_y="220dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ถ้าไม่สามารถให้น้ำนมแม่จากเต้า"
+
+        android:textSize="25dp"
+        android:layout_x="45dp"
+        android:layout_y="280dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ได้โปรดปรึกษาเรา"
+
+        android:textSize="25dp"
+        android:layout_x="15dp"
+        android:layout_y="310dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+<!-- logo มูลนิธิ -->
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="130dp"
+        android:layout_y="400dp"
+        android:src="@drawable/cleftkku"
+        />
+
+
+
+    <!-- กลับเมนูหลัก -->
+    <ImageView
+        android:id="@+id/imgback"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="10dp"
+        android:layout_y="580dp"
+        android:src="@drawable/b"
+        />
+
+
+</AbsoluteLayout>

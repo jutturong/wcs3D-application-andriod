@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <!-- เนื้อหา -->
+    <!--
+    <ImageView
+
+        android:layout_width="440dp"
+        android:layout_height="600dp"
+        android:layout_x="-15dp"
+        android:layout_y="0dp"
+        android:src="@drawable/beginfeeding_01"
+        />
+      -->
+
+
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_x="-15dp"
+        android:layout_y="0dp"
+        android:src="@drawable/beginfeeding_01_update2"
+        />
+
+
+
+    <!-- back -->
+
+    <!--
+    <ImageView
+        android:id="@+id/imageBack"
+        android:layout_width="190dp"
+        android:layout_height="match_parent"
+        android:layout_x="15dp"
+        android:layout_y="295dp"
+        android:src="@drawable/beginfeeding_02"
+        />
+        -->
+
+    <ImageView
+        android:id="@+id/imageBack"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_x="15dp"
+        android:layout_y="600dp"
+        android:src="@drawable/back_icon2"
+        />
+
+
+
+
+    <!-- forword -->
+<!--
+    <ImageView
+        android:id="@+id/imgforword"
+        android:layout_width="190dp"
+        android:layout_height="match_parent"
+        android:layout_x="205dp"
+        android:layout_y="295dp"
+        android:src="@drawable/beginfeeding_03"
+        />
+-->
+
+    <ImageView
+        android:id="@+id/imgforword"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_x="300dp"
+        android:layout_y="600dp"
+        android:src="@drawable/forword_icon2"
+        />
+
+
+</AbsoluteLayout>

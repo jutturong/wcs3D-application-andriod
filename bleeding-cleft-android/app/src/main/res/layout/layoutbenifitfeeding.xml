@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<!-- หัว -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="-20dp"
+        android:src="@drawable/benefitfeeding_01"
+        />
+
+
+<!-- เสร้ิมสร้างภูมิคุ้มกันโรค -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="30dp"
+        android:src="@drawable/benefitfeeding_02"
+        />
+
+<!-- ลดโอกาสเป็นโรคภูมิแพ้ -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="120dp"
+        android:src="@drawable/benefitfeeding_03"
+        />
+
+<!-- สร้างเสริมพัฒนาสมอง -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="220dp"
+        android:src="@drawable/benefitfeeding_04"
+        />
+
+<!-- รูปภาพเด็ก -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="250dp"
+        android:src="@drawable/benefitfeeding_05"
+        />
+
+
+
+<!-- back -->
+    <ImageView
+        android:id="@+id/imgback"
+        android:layout_width="210dp"
+        android:layout_height="match_parent"
+
+        android:layout_x="0dp"
+        android:layout_y="315dp"
+        android:src="@drawable/benefitfeeding_06"
+        />
+
+
+<!-- forword -->
+    <ImageView
+        android:id="@+id/imgforword"
+        android:layout_width="210dp"
+        android:layout_height="match_parent"
+        android:layout_x="204dp"
+        android:layout_y="315dp"
+        android:src="@drawable/benefitfeeding_07"
+        />
+
+
+
+
+
+</AbsoluteLayout>

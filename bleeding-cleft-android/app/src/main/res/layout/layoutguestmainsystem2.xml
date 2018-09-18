@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroller"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight = "1"
+    android:orientation="vertical"
+    android:fillViewport="true" >
+
+
+
+
+    <AbsoluteLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <!--background -->
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_x="0dp"
+            android:layout_y="0dp"
+            android:src="@drawable/backgroundmainsystem3"
+            />
+
+
+        <!--ผู้เยี่ยมชม -->
+        <ImageView
+
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_x="45dp"
+            android:layout_y="25dp"
+            android:src="@drawable/gcroup3438"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ผู้เยี่ยมชม"
+            android:textSize="25dp"
+            android:layout_x="50dp"
+            android:layout_y="115dp"
+            android:textColor="#7B68EE"
+            android:fontFamily="@font/fc_lamoon_bold"
+            android:textStyle="bold"
+
+            />
+
+
+         <!-- เข้าสู่ระบบ -->
+        <TextView
+            android:id="@+id/imgLogin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="เข้าสู่ระบบ"
+            android:textSize="40dp"
+            android:layout_x="220dp"
+            android:layout_y="20dp"
+            android:textColor="#7B68EE"
+            android:fontFamily="@font/fc_lamoon_bold"
+            android:textStyle="bold"
+
+            />
+
+
+<!-- สมัครสมาชิก -->
+        <TextView
+            android:id="@+id/imaSignup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="สมัครสมาชิก"
+            android:textSize="40dp"
+            android:layout_x="200dp"
+            android:layout_y="100dp"
+            android:textColor="#7B68EE"
+            android:fontFamily="@font/fc_lamoon_bold"
+            android:textStyle="bold"
+
+            />
+
+
+
+         <!-- พัฒนาการช่วงวัย -->
+        <ImageView
+
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_x="60dp"
+            android:layout_y="180dp"
+            android:src="@drawable/group3434"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="พัฒนาการช่วงวัย"
+            android:textSize="25dp"
+            android:layout_x="40dp"
+            android:layout_y="270dp"
+            android:textColor="#7B68EE"
+            android:fontFamily="@font/fc_lamoon_bold"
+            android:textStyle="bold"
+
+            />
+
+
+
+         <!-- ติดตามการรักษา -->
+        <ImageView
+
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_x="270dp"
+            android:layout_y="180dp"
+            android:src="@drawable/group624"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ติดตามการรักษา"
+            android:textSize="25dp"
+            android:layout_x="245dp"
+            android:layout_y="270dp"
+            android:textColor="#7B68EE"
+            android:fontFamily="@font/fc_lamoon_bold"
+            android:textStyle="bold"
+
+            />
+
+
+
+        <!-- การให้นมทารก -->
+        <ImageView
+            android:id="@+id/imageFeeding"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_x="50dp"
+            android:layout_y="300dp"
+            android:src="@drawable/gcroup3435"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="การให้นมทารก"
+            android:textSize="25dp"
+            android:layout_x="40dp"
+            android:layout_y="390dp"
+            android:textColor="#7B68EE"
+            android:fontFamily="@font/fc_lamoon_bold"
+            android:textStyle="bold"
+
+            />
+
+
+
+
+         <!-- ข้อมูลสุขภาพ-->
+        <ImageView
+
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_x="270dp"
+            android:layout_y="300dp"
+            android:src="@drawable/group3440"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ข้อมูลสุขภาพ"
+            android:textSize="25dp"
+            android:layout_x="260dp"
+            android:layout_y="390dp"
+            android:textColor="#7B68EE"
+            android:fontFamily="@font/fc_lamoon_bold"
+            android:textStyle="bold"
+
+            />
+
+        <!-- คลังความรู้ -->
+        <ImageView
+
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_x="50dp"
+            android:layout_y="420dp"
+            android:src="@drawable/group394"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="คลังความรู้"
+            android:textSize="25dp"
+            android:layout_x="40dp"
+            android:layout_y="510dp"
+            android:textColor="#7B68EE"
+            android:fontFamily="@font/fc_lamoon_bold"
+            android:textStyle="bold"
+
+            />
+
+
+
+
+        <!-- ปรึกษาตะวันฉาย -->
+        <ImageView
+
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_x="270dp"
+            android:layout_y="420dp"
+            android:src="@drawable/group626"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ปรึกษาตะวันฉาย"
+            android:textSize="25dp"
+            android:layout_x="240dp"
+            android:layout_y="510dp"
+            android:textColor="#7B68EE"
+            android:fontFamily="@font/fc_lamoon_bold"
+            android:textStyle="bold"
+
+            />
+
+
+
+
+        <!-- ติดตามข่าวสาร -->
+        <ImageView
+
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_x="50dp"
+            android:layout_y="550dp"
+            android:src="@drawable/group628"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ติดตามข่าวสาร"
+            android:textSize="25dp"
+            android:layout_x="40dp"
+            android:layout_y="640dp"
+            android:textColor="#7B68EE"
+            android:fontFamily="@font/fc_lamoon_bold"
+            android:textStyle="bold"
+
+            />
+
+
+<!-- สถานพยาบาล -->
+        <ImageView
+
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_x="270dp"
+            android:layout_y="550dp"
+            android:src="@drawable/group397"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="สถานพยาบาล"
+            android:textSize="25dp"
+            android:layout_x="260dp"
+            android:layout_y="640dp"
+            android:textColor="#7B68EE"
+            android:fontFamily="@font/fc_lamoon_bold"
+            android:textStyle="bold"
+
+            />
+
+
+    </AbsoluteLayout>
+
+
+</ScrollView>

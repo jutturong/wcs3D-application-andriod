@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:src="@drawable/background2"
+        />
+
+
+    <!-- icon หลัก -->
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_x="0dp"
+        android:layout_y="70dp"
+        android:src="@drawable/relation"
+        />
+
+
+    <!-- button -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/button2"
+        android:layout_x="0dp"
+        android:layout_y="-290dp"
+        />
+
+    <!--  android:textColor="#4d4d00" -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="สร้างสัมพันธภาพที่ใกล้ชิด"
+        android:textSize="38dp"
+        android:layout_x="10dp"
+        android:layout_y="25dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+
+    <!-- เนื้อหา -->
+    <!--  android:textColor="#4d4d00" -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="การให้นมแม่ทำให้แม่ได้โอบกอด"
+        android:textSize="25dp"
+        android:layout_x="40dp"
+        android:layout_y="100dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ทารก การสัมผัสและการจ้องมอง"
+        android:textSize="25dp"
+        android:layout_x="20dp"
+        android:layout_y="130dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ได้มองเห็นทารก ทำให้ลดความวิตก"
+        android:textSize="25dp"
+        android:layout_x="20dp"
+        android:layout_y="160dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="กังวลของแม่ เกิดสัมพันธภาพที่ดี"
+        android:textSize="25dp"
+        android:layout_x="20dp"
+        android:layout_y="190dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ระหว่างแม่และเด็ก ทำให้มารดา"
+        android:textSize="25dp"
+        android:layout_x="20dp"
+        android:layout_y="220dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ปรับตัวยอมรับทารกได้ง่ายขึ้นป้องกัน"
+        android:textSize="25dp"
+        android:layout_x="20dp"
+        android:layout_y="250dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <!--  android:textColor="#4d4d00" -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ไม่ให้มารดาทอดทิ้งทารก"
+        android:textSize="25dp"
+        android:layout_x="20dp"
+        android:layout_y="280dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+
+
+    <!-- กลับเมนูหลัก  back -->
+    <ImageView
+        android:id="@+id/imgback"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="10dp"
+        android:layout_y="580dp"
+        android:src="@drawable/b"
+        />
+
+
+    <ImageView
+        android:id="@+id/imgprev"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="300dp"
+        android:layout_y="580dp"
+        android:src="@drawable/f"
+        />
+
+
+
+</AbsoluteLayout>

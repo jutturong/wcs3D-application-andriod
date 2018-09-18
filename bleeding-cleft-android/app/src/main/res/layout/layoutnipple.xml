@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!-- background -->
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:src="@drawable/background2"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/button1"
+        android:layout_x="0dp"
+        android:layout_y="-270dp"
+        />
+
+    <!-- หัวข้อใหญ่ -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ลักษณะการอมหัวนมที่ถูกต้อง"
+        android:textSize="35dp"
+        android:layout_x="10dp"
+        android:layout_y="45dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+
+    <!-- icon ภาพ -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_y="20dp"
+        android:src="@drawable/nipple" />
+
+
+
+    <!-- เนื้อหา -->
+    <!--
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="การอมหัวนมที่ถูกต้องเป็นสิ่งที่สำคัญ"
+        android:textSize="25dp"
+        android:layout_x="35dp"
+        android:layout_y="150dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ที่สุดที่จะทำให้ลูกดูดนมแม่ได้ปริมาณ"
+        android:textSize="25dp"
+        android:layout_x="25dp"
+        android:layout_y="180dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="น้ำนมมากใช้ระยะเวลาดูดนมน้อยลง"
+        android:textSize="25dp"
+        android:layout_x="25dp"
+        android:layout_y="210dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="น้ำหนักขึ้นเร็วโดยเริ่มตั้งแต่เอาหัวนม"
+        android:textSize="25dp"
+        android:layout_x="25dp"
+        android:layout_y="240dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="เข้าปากทารกคุณแม่แตะริมฝีปากล่าง"
+        android:textSize="25dp"
+        android:layout_x="25dp"
+        android:layout_y="270dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ของทารกถ้าทารกยังไม่อ้าปากคุณแม่"
+        android:textSize="25dp"
+        android:layout_x="25dp"
+        android:layout_y="300dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ใช้นิ้วแตะบริเวณคางทารกกดเบาๆ"
+        android:textSize="25dp"
+        android:layout_x="25dp"
+        android:layout_y="330dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="เมื่อทารกอ้าปากกว้างจึงขยับศีรษะ"
+        android:textSize="25dp"
+        android:layout_x="25dp"
+        android:layout_y="360dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ทารกให้ริมฝีปากอบมิดลานนม"
+        android:textSize="25dp"
+        android:layout_x="25dp"
+        android:layout_y="390dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+-->
+
+
+
+    <!-- back -->
+    <ImageView
+        android:id="@+id/imgback"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="5dp"
+        android:layout_y="570dp"
+        android:src="@drawable/b"
+        />
+
+
+    <!-- forword -->
+    <ImageView
+        android:id="@+id/imgforword"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="310dp"
+        android:layout_y="570dp"
+        android:src="@drawable/f"
+        />
+
+
+</AbsoluteLayout>

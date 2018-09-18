@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- background -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:src="@drawable/background1"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ประโยชน์เฉพาะสำหรับทารก"
+        android:textSize="32dp"
+        android:layout_x="19dp"
+        android:layout_y="40dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/sov_monomon_hinted"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ที่มีภาวะปากแหว่งเพดานโหว่"
+        android:textSize="27dp"
+        android:layout_x="50dp"
+        android:layout_y="100dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:layout_x="-40dp"
+        android:layout_y="160dp"
+        android:src="@drawable/beginfeeding2"
+        />
+
+
+
+
+ <!-- back -->
+    <ImageView
+        android:id="@+id/imgback"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="5dp"
+        android:layout_y="570dp"
+        android:src="@drawable/b"
+        />
+
+
+    <!-- forword -->
+    <ImageView
+        android:id="@+id/imgforword"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="315dp"
+        android:layout_y="570dp"
+        android:src="@drawable/f"
+        />
+
+
+
+
+
+
+</AbsoluteLayout>

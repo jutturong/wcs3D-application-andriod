@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <!-- เนื้อหา -->
+    <!--
+    <ImageView
+
+        android:layout_width="440dp"
+        android:layout_height="600dp"
+        android:layout_x="-15dp"
+        android:layout_y="-10dp"
+        android:src="@drawable/keepmilk2_01"
+        />
+
+
+
+    <ImageView
+        android:id="@+id/imageBack2"
+        android:layout_width="191.5dp"
+        android:layout_height="match_parent"
+        android:layout_x="14dp"
+        android:layout_y="289dp"
+        android:src="@drawable/keepmilk2_02"
+        />
+    -->
+
+    <!-- forword -->
+
+    <!--
+    <ImageView
+        android:id="@+id/imgtomenu"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_x="205dp"
+        android:layout_y="289dp"
+        android:src="@drawable/keepmilk2_03"
+        />
+    -->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:src="@drawable/background2"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/button1"
+        android:layout_x="0dp"
+        android:layout_y="-270dp"
+        />
+
+    <!-- หัวข้อใหญ่ -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="เก็บรักษาน้ำนม"
+        android:textSize="45dp"
+        android:layout_x="70dp"
+        android:layout_y="40dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+
+<!--
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_x="55dp"
+        android:layout_y="170dp"
+        android:src="@drawable/keepmilk" />
+  -->
+
+
+    <!-- เนื้อหา -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="เมื่อได้น้ำนมควรตวงปริมาณโดย"
+        android:textSize="25dp"
+        android:layout_x="45dp"
+        android:layout_y="140dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="เก็บใส่ถุงเย็นครั้งละ 3 ออนซ์ หรือ"
+        android:textSize="25dp"
+        android:layout_x="25dp"
+        android:layout_y="170dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="90 ซีซี มัดปากถุงให้แน่น เขียนวันที่"
+        android:textSize="25dp"
+        android:layout_x="25dp"
+        android:layout_y="200dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="เดือน และเวลา ที่เก็บใส่ไว้ในช่อง"
+        android:textSize="25dp"
+        android:layout_x="25dp"
+        android:layout_y="230dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="น้ำแข็งของตู้เย็นเรียงลำดับจากด้าน"
+        android:textSize="25dp"
+        android:layout_x="25dp"
+        android:layout_y="260dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="หน้าไปด้านหลัง จากซ้ายไปขวาเก็บ"
+        android:textSize="25dp"
+        android:layout_x="25dp"
+        android:layout_y="290dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ได้นาน 3 เดือน เมื่อนำออกมาใช้"
+        android:textSize="25dp"
+        android:layout_x="25dp"
+        android:layout_y="320dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ให้ทิ้งไว้ให้ละลายก่อนไปเขย่าในน้ำ"
+        android:textSize="25dp"
+        android:layout_x="25dp"
+        android:layout_y="350dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="อุ่น ป้อนด้วยแก้ว ช้อนหรือหยดด้วย"
+        android:textSize="25dp"
+        android:layout_x="25dp"
+        android:layout_y="380dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="หลอดหยดยาน้ำเพื่อฝึกให้ทารกคุ้น"
+        android:textSize="25dp"
+        android:layout_x="25dp"
+        android:layout_y="410dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="เคย เตรียมก่อนวันผ่าตัด"
+        android:textSize="25dp"
+        android:layout_x="25dp"
+        android:layout_y="440dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+   <!-- image icon -->
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_x="105dp"
+        android:layout_y="240dp"
+        android:src="@drawable/keepmilk" />
+
+
+<!-- back -->
+    <ImageView
+        android:id="@+id/imgback"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="10dp"
+        android:layout_y="580dp"
+        android:src="@drawable/b"
+    />
+
+    <!-- menu -->
+    <!--
+    <ImageView
+        android:id="@+id/imgmenu"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_x="310dp"
+        android:layout_y="590dp"
+        android:src="@drawable/menu"
+        />
+      -->
+
+    <ImageView
+        android:id="@+id/imgmenu"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_x="320dp"
+        android:layout_y="590dp"
+        android:src="@drawable/menu"
+        />
+
+
+</AbsoluteLayout>

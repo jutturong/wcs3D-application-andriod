@@ -1,0 +1,53 @@
+<AbsoluteLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="-90dp"
+
+
+        android:src="@drawable/prelogin2_01"
+        />
+
+    <!--    ผู้ป่วยตะวันฉาย -->
+    <ImageView
+        android:id="@+id/imageOld"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="300dp"
+
+
+        android:src="@drawable/prelogin2_02"
+        />
+
+    <!-- สมาชิกใหม่ -->
+    <ImageView
+        android:id="@+id/imageNew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="341dp"
+        android:src="@drawable/prelogin2_03"
+    />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="282dp"
+        android:src="@drawable/prelogin2_04"
+        />
+
+
+
+
+
+
+</AbsoluteLayout>

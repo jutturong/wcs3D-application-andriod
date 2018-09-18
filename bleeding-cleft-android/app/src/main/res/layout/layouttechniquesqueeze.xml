@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:src="@drawable/background2"
+        />
+
+    <!-- button -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/button2"
+        android:layout_x="0dp"
+        android:layout_y="-290dp"
+        />
+
+    <!-- หัวข้อใหญ่ -->
+    <!-- android:textColor="#4d4d00" -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="เทคนิคการบีบน้ำนมแม่ขณะทารกดูดนม"
+        android:textSize="25dp"
+        android:layout_x="15dp"
+        android:layout_y="35dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+<!-- เนื้อหา -->
+    <!--    android:textColor="#4d4d00" -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ถึงแม้ว่าทารกจะดูดนมได้ดีเพียงใด"
+        android:textSize="25dp"
+        android:layout_x="40dp"
+        android:layout_y="90dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ก็ตามให้ระลึกเสมอว่าทารกไม่"
+        android:textSize="25dp"
+        android:layout_x="15dp"
+        android:layout_y="120dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="สามารถดึงเอาน้ำนมออกจากเต้าได้"
+        android:textSize="25dp"
+        android:layout_x="20dp"
+        android:layout_y="150dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="เท่าเด็กปกติเนื่องจากมีลมรั่วออกจาก"
+        android:textSize="25dp"
+        android:layout_x="20dp"
+        android:layout_y="180dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="รอยโหว่ ดังนั้นขณะทารกดูดนมคุณแม่"
+        android:textSize="25dp"
+        android:layout_x="20dp"
+        android:layout_y="210dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="จะต้องบีบน้ำนมช่วยเสมอจะหยุดบีบ"
+        android:textSize="25dp"
+        android:layout_x="20dp"
+        android:layout_y="240dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="เฉพาะช่วงเวลาน้ำนมพุ่งซึ่งคุณแม่จะ"
+        android:textSize="25dp"
+        android:layout_x="20dp"
+        android:layout_y="270dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="รู้สึกได้เอง และน้ำนมอีกเต้าจะหยด"
+        android:textSize="25dp"
+        android:layout_x="20dp"
+        android:layout_y="300dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ให้เห็น หรือหยุดบีบช่วงจังหวะทารก"
+        android:textSize="25dp"
+        android:layout_x="20dp"
+        android:layout_y="330dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="หยุดหายใจ วิธีการบีบใหวางนิ้วหัว"
+        android:textSize="25dp"
+        android:layout_x="20dp"
+        android:layout_y="360dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="แม่มือบนขอบนอกของลานนมนิ้วที่เหลือ"
+        android:textSize="25dp"
+        android:layout_x="16dp"
+        android:layout_y="390dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="อยู่ขอบนอกลานนมด้านล่างบีบเข้าหา"
+        android:textSize="25dp"
+        android:layout_x="20dp"
+        android:layout_y="420dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="กันโดยยึดเข้าด้านในอกแม่บีบคลาย"
+    android:textSize="25dp"
+    android:layout_x="20dp"
+    android:layout_y="450dp"
+        android:textColor="#ffffff"
+    android:fontFamily="@font/sov_monomon_hinted"
+
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="เป็นจังหวะให้สัมพันธ์กับช่วงจังหวะ"
+        android:textSize="25dp"
+        android:layout_x="20dp"
+        android:layout_y="480dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="การดูดกลืนของทารก"
+        android:textSize="25dp"
+        android:layout_x="20dp"
+        android:layout_y="510dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+
+    <!-- icon หลัก -->
+    <!--
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_x="-5dp"
+        android:layout_y="180dp"
+        android:src="@drawable/technique1"
+        />
+     -->
+    <ImageView
+
+        android:layout_width="380dp"
+        android:layout_height="380dp"
+        android:layout_x="0dp"
+        android:layout_y="355dp"
+        android:src="@drawable/technique1"
+        />
+    <!-- icon หลัก -->
+
+    <!-- กลับเมนูหลัก  back -->
+    <ImageView
+        android:id="@+id/imgback"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="10dp"
+        android:layout_y="580dp"
+        android:src="@drawable/b"
+        />
+
+
+    <!-- forword -->
+    <ImageView
+        android:id="@+id/imgforword"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="300dp"
+        android:layout_y="580dp"
+        android:src="@drawable/f"
+        />
+
+
+</AbsoluteLayout>

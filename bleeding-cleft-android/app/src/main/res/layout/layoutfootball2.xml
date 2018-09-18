@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!-- background -->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:src="@drawable/background2"
+        />
+
+
+    <!-- icon ภาพ -->
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="380dp"
+        android:layout_x="70dp"
+        android:layout_y="310dp"
+        android:src="@drawable/football1icon1" />
+
+
+
+    <!-- icon -->
+
+<!-- ท่าฟุตบอล -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ท่าฟุตบอล"
+        android:textSize="50dp"
+        android:layout_x="130dp"
+        android:layout_y="20dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+ <!-- เนื้อหา -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="อุ้มทารกให้นั่งด้านข้างบนเตียง"
+        android:textSize="25dp"
+        android:layout_x="50dp"
+        android:layout_y="90dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="มีหมอนรองรับทารก และมือแม่ด้านที่"
+        android:textSize="25dp"
+        android:layout_x="25dp"
+        android:layout_y="120dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ประครองศีรษะทารกแขนและข้อศอก"
+        android:textSize="25dp"
+        android:layout_x="25dp"
+        android:layout_y="150dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="หนีบทารกไว้ใต้รักแร้แม่ ลำตัวทารก"
+        android:textSize="25dp"
+        android:layout_x="25dp"
+        android:layout_y="180dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="อยู่ในลักษณะนั่งหรือกึ่งนั่ง ริมฝีปาก"
+        android:textSize="25dp"
+        android:layout_x="25dp"
+        android:layout_y="210dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ทารกอยู่ในระดับหัวนมแม่ มืออีกข้าง"
+        android:textSize="25dp"
+        android:layout_x="25dp"
+        android:layout_y="240dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ประคองเต้านมโดยหัวแม่มืออยู่ขอบ"
+        android:textSize="25dp"
+        android:layout_x="25dp"
+        android:layout_y="270dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ลานนม นิ้วที่เหลืออยู่ขอบล่างของ"
+        android:textSize="25dp"
+        android:layout_x="25dp"
+        android:layout_y="300dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ลานนมในลักษณะพร้อมที่จะช่วยบีบนม"
+        android:textSize="25dp"
+        android:layout_x="25dp"
+        android:layout_y="330dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ให้ลูก"
+        android:textSize="25dp"
+        android:layout_x="25dp"
+        android:layout_y="360dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+
+
+    <!-- เนื้อหา -->
+
+
+    <!-- back -->
+    <ImageView
+        android:id="@+id/imgback"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="5dp"
+        android:layout_y="570dp"
+        android:src="@drawable/b"
+        />
+
+
+    <!-- forword -->
+    <ImageView
+        android:id="@+id/imgforword"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="315dp"
+        android:layout_y="570dp"
+        android:src="@drawable/f"
+        />
+
+
+
+
+</AbsoluteLayout>

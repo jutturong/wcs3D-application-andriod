@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:src="@drawable/background2"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/button2"
+        android:layout_x="0dp"
+        android:layout_y="-270dp"
+        />
+
+
+    <!-- หัวข้อใหญ่ -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="วิธีบีบน้ำนมแม่"
+        android:textSize="45dp"
+        android:layout_x="70dp"
+        android:layout_y="40dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+
+    <!-- เนื้อหา -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="1.ล้างมือแม่ให้สะอาดก่อนบีบนม"
+        android:textSize="25dp"
+        android:layout_x="25dp"
+        android:layout_y="140dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="2.เตรียมภาชนะที่สะอาดไว้รองรับ"
+        android:textSize="25dp"
+        android:layout_x="25dp"
+        android:layout_y="170dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="อาจใช้ขวดนมได้เพราะมีขีดบอก"
+        android:textSize="25dp"
+        android:layout_x="25dp"
+        android:layout_y="200dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ปริมาณ"
+        android:textSize="25dp"
+        android:layout_x="25dp"
+        android:layout_y="230dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="3.วางนิ้วหัวแม่มือบนขอบนอกลานนม"
+        android:textSize="25dp"
+        android:layout_x="25dp"
+        android:layout_y="260dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="นิ้วที่เหลืออยู่ขอบนอกด้านล่าง กด"
+        android:textSize="25dp"
+        android:layout_x="25dp"
+        android:layout_y="290dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="หัวแม่มือและนิ้วชี้เข้าด้านในอกแม่"
+        android:textSize="25dp"
+        android:layout_x="25dp"
+        android:layout_y="320dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="แล้วบีบเข้าหากันบีบคลายๆ เป็น"
+        android:textSize="25dp"
+        android:layout_x="25dp"
+        android:layout_y="350dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="จังหวะ"
+        android:textSize="25dp"
+        android:layout_x="25dp"
+        android:layout_y="380dp"
+        android:textColor="#4d4d00"
+        android:fontFamily="@font/sov_monomon_hinted"
+
+        />
+
+
+<!-- icon บีบนมแม่ -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/squeezemilk"
+        android:layout_x="140dp"
+        android:layout_y="340dp"
+        />
+
+
+
+
+
+
+<!-- back -->
+    <ImageView
+        android:id="@+id/imgback"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="10dp"
+        android:layout_y="580dp"
+        android:src="@drawable/b"
+        />
+
+ <!-- forword -->
+    <ImageView
+        android:id="@+id/imgforword"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="300dp"
+        android:layout_y="580dp"
+        android:src="@drawable/f"
+        />
+
+</AbsoluteLayout>
