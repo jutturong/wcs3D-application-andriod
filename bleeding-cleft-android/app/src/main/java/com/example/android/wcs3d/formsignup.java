@@ -2,6 +2,7 @@ package com.example.android.wcs3d;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.provider.MediaStore;
@@ -24,7 +25,7 @@ ImageView imageUpload; //อัพโหลดรูปภาพ
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layoutformsignup);
-
+        this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT); //fix ด้านตั้ง
 
         imageUpload=(ImageView)findViewById(R.id.imageUpload);
         imageUpload.setOnClickListener(new View.OnClickListener() {

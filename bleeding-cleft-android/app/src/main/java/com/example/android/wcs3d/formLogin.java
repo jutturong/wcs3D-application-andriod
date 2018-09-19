@@ -2,6 +2,7 @@ package com.example.android.wcs3d;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -22,6 +23,8 @@ ImageView imgLogin;
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.layoutformlogin);
+        this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT); //fix ด้านตั้ง
+
 
         // edit username
         editLogin=(EditText)findViewById(R.id.edituser);

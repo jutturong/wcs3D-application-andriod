@@ -2,6 +2,7 @@ package com.example.android.wcs3d;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -22,6 +23,8 @@ ImageView imgforword;
 
 
         setContentView(R.layout.layoutbeginfeeding);
+        this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT); //fix ด้านตั้ง
+
 
 
         imageBack=(ImageView)findViewById(R.id.imageBack);

@@ -2,6 +2,7 @@ package com.example.android.wcs3d;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -20,7 +21,7 @@ public class keepmilk2  extends Activity {
 
 
         setContentView(R.layout.layoutkeepmilk2);
-
+        this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT); //fix ด้านตั้ง
 
 
         /*
